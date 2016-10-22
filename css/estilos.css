@@ -1,6 +1,6 @@
 body
 {
-	font-family: helvetica;
+	font-family: 'Open Sans Condensed', sans-serif;
 	padding: 0px;
 	margin: 0px;
 }
@@ -33,7 +33,7 @@ body
 {	
 	color: #8258B6;
 	font-weight: bold;
-}
+	font-size: 22px;}
 /** termina seccion header **/
 
 
@@ -56,4 +56,84 @@ body
   text-align: center;
   background-color: #dfe0f4;
   height: 550px; 
+}
+
+.textouno
+{
+	text-align: center !important;
+	padding: 40px;
+}
+
+.text3
+{
+	color: #000;
+	font-size: 16px;
+	font-weight: lighter;
+	padding-right: 350px;
+	padding-left: 350px;
+	padding-bottom: 30px;
+	text-align: justify;
+}
+
+#content3
+{
+	background-color: #8453C8; 
+	text-align: center !important;
+	height: 100%;
+	margin: -14px;
+}
+
+
+.link
+{
+	text-decoration: none;
+    color: #13BAC0;
+    font-size: 18px
+}
+
+.text5
+{
+	color: #fff;
+	font-size: 18px;
+}
+
+.text4
+{
+	color: #000;
+	font-size: 18px;
+}
+
+.textouno p
+{padding-right: 350px;
+	padding-left: 350px;
+}
+
+.flotante
+{
+	float: right;
+
+}
+#footer
+{
+text-align: center;
+background-color:#E1EFF3;
+height: 40px;
+
+
+
+ }
+
+ .link2
+{
+	text-decoration: none;
+    color: #13BAC0;
+    font-size: 16px;
+    
+}
+
+#footer p
+{
+	margin: -14px;
+	 padding-top: 10px;
+    padding-bottom: 10px;
 }
