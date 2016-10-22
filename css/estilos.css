@@ -1,8 +1,11 @@
 body
 {
 	font-family: helvetica;
+	padding: 0px;
+	margin: 0px;
 }
 
+/** seccion header **/
 .content1
 {
 	width: 100%;
@@ -30,4 +33,27 @@ body
 {	
 	color: #8258B6;
 	font-weight: bold;
+}
+/** termina seccion header **/
+
+
+#senior
+{
+  text-align: center;
+  background-color: #F4F4F4; 
+  height: 550px;
+}
+
+#chico
+{
+  text-align: center;
+  background-color: #dfecf5;
+  height: 550px; 
+}
+
+#amor
+{
+  text-align: center;
+  background-color: #dfe0f4;
+  height: 550px; 
 }
