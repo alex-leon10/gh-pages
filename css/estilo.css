@@ -1,0 +1,297 @@
+body{
+
+	font-family: 'Fjalla One', sans-serif;
+
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header{
+	width: 100%;
+	height: 50px;
+	background: #333;
+	color: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+.contenedor
+{
+	width: 98%;
+	margin: auto;
+}
+
+header p
+{
+	float: left;
+	margin-top: 10px;
+	font-size: 28px;
+}
+
+header p a
+{
+	color: #fff;
+	text-decoration: none;
+	margin-left: 10px;
+	font-family: 'Courgette', cursive;
+
+	
+/*font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Courgette', cursive;
+font-family: 'Merienda', cursive;
+font-family: 'Bungee', cursive;*/
+}
+
+header p a:hover
+{
+	color: orange;
+	text-decoration: none;
+}
+
+header .contenedor
+{
+	display: table;
+}
+
+section
+{
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+
+/* Aqui inicia la sección de banners*/
+
+#banner
+{
+	margin-top: 50px;
+}
+
+#banner img
+{
+	width: 100%;
+	height: 100%;
+		
+}
+
+#banner .contenedor
+{
+	position: absolute;
+	top: 45%;
+	/*right: 50%;*/
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	color: #fff;
+	
+}
+
+#banner h2
+{
+	font-size: 28px;
+}
+
+#banner a
+{
+	display: block;
+	width: 100px;
+	color: #fff;
+	text-decoration: none;
+	padding: 7px;
+	margin-top: 10px;
+	border: 2px solid #fff;
+	text-align: center;
+
+}
+
+#banner a:hover 
+{
+	background: orange;
+}
+
+#bienvenidos
+{
+	text-align: center; 
+}
+
+
+/* Aqui inicia la sección de blog*/
+
+#blog h3, h4
+{
+	text-align: center;
+}
+
+#blog .contenedor
+{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+
+#blog article
+{
+	margin: 15px;
+}
+
+#blog img
+{
+	width: 100%;
+	max-width: 280px;
+}
+
+/* Aqui inicia la sección de info*/
+
+#info
+{
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+
+#info .contenedor
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.info-pet
+{
+	margin: 20px;
+}
+
+.info-pet img
+{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border: 3px solid #fff;
+}
+
+/* Aqui inicia la sección de footer*/
+
+footer .contenedor
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 25px;
+}
+
+.copy
+{
+	font-size: 20px;
+
+}
+
+.sociales
+{
+	width: 100%;
+	text-align: center;
+	font-size: 28px;
+}
+
+.sociales a 
+{
+	color: #333;
+	text-decoration: none;
+}
+
+
+
+@media (min-width: 1024px)
+{
+
+	.contenedor
+	{
+		width: 1000px;
+	}
+}
+
+
+@media (min-width: 480px)
+{
+
+	#banner h2
+	{
+			}
+
+	#banner a
+	{
+		margin-top: 25px;
+	}
+
+	.info-pet
+	{
+		width: 40%;
+	}
+
+}
+
+
+@media (min-width: 768px)
+{
+
+	#banner
+	{
+		height: 450px;
+		overflow: hidden;
+	}
+
+	#banner img
+	{
+		height: auto;
+		margin-top: -50px;
+		
+	}
+
+	.sociales
+	{
+		width: auto;
+	}
+
+	footer .contenedor
+	{
+		justify-content: space-between;
+	}
+}
+
+@media (min-width: 1024px)
+{
+
+
+	#banner img
+	{
+		margin-top: -80px;
+
+		
+	}
+
+	.info-pet
+	{
+		width: auto;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
