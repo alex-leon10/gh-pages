@@ -1,0 +1,173 @@
+body{
+
+	font-family: 'Fjalla One', sans-serif;
+	padding: 0;
+	margin: 0;
+
+}
+
+*{
+	box-sizing: border-box;
+}
+
+img{
+	display: block;
+	max-width: 100%;
+}
+
+/*header*/
+
+.header{
+	height: 50px;
+}
+
+.header .contenedor{
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo, .icon-menu{
+	margin: 5px;
+	color: #fff;
+}
+
+
+.icon-menu{
+	display: block;
+	width: 40px;
+	height: 40px;
+	font-size: 30px;
+	background: #fba919;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 5px;
+	margin-left: auto;
+	cursor: pointer;
+}
+
+.nav{
+	position: absolute;
+	top: 50px;
+	left: -100%;
+	width: 100%;
+	transition: all 0.4s;
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.menu_link{
+	display: block;
+	padding: 15px;
+	background: #fba919;
+	text-decoration: none;
+	color: #fff;
+
+}
+
+.menu_link:hover{
+	background: white;
+	color: #fba919;
+}
+
+.mostrar{
+	left: 0;
+}
+
+.select {
+	background: white;
+	color: #fba919;
+}
+
+/*banner*/
+
+.banner{
+	margin-top: -50px;
+	position: relative;
+	z-index: -1000;
+	margin-bottom: 20px;
+}
+
+.banner .contenedor{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: 100%;
+	color: #fff;
+	text-align: center;
+}
+
+.banner_txt{
+	display: none;
+}
+
+
+/*info*/
+
+.info_columna{
+	background: #fba919;
+	color: #fff;
+	padding: 15px;
+	margin-bottom: 30px;
+}
+
+/*cursos*/
+
+.section_titulo{
+	text-align: center;
+	font-size: 30px;
+	color: #fba919;
+}
+.cursos_columna{
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.cursos_descripcion{
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	background: rgba(0,0,0,0.4);
+	width: 60%;
+	height: 100%;
+	padding: 5px;
+}
+
+.cursos_titulo{
+	font-size: 25px;
+	margin: 5px 0;
+}
+
+/*footer*/
+
+.footer{
+	background: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+.footer .social [class^="icon-"]{
+	display: inline-block;
+	color: #333;
+	text-decoration: none; 
+	font-size: 30px;
+	padding-top: 8px;
+	background: white;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	line-height: 40px;
+}
+
+
+
+
+
+
