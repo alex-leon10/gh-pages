@@ -15,6 +15,10 @@ img{
 	max-width: 100%;
 }
 
+.contenedor{
+	margin: auto;
+	width: 99%;
+}
 /*header*/
 
 .header{
@@ -167,7 +171,130 @@ img{
 }
 
 
+/*responsive*/
 
+@media(min-width: 480px){
+	.logo{
+		font-size: 40px;
+	}
 
+	.banner_titulo{
+		font-size: 30px;
+		margin: 10px 0;
+	}
 
+	.banner_txt{
+		display: block;
+		font-size: 15px;
+		margin: 10px 0;
+	}
+
+	.info, .cursos{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.info_columna{
+		width: 32%;
+	}
+
+	.cursos{
+		flex-wrap: wrap;
+		margin-top: 0;
+	}
+
+	.section_titulo{
+		width: 100%;
+	}
+
+	.cursos_columna{
+		width: 49%;
+	}
+
+	.footer .social [class^="icon-"]{
+		margin: 0 10px;
+	}
+}
+
+@media(min-width: 768px){
+
+	.banner_titulo{
+		font-size: 40px;
+		margin: 10px 0;
+	}
+
+	.section_titulo{
+		font-size: 35px;
+	}
+
+}
+
+@media(min-width: 1024px){
+
+	.nav{
+		position: static;
+		width: auto;
+	}
+
+	.menu{
+		display: flex;
+	}
+
+	.menu_link{
+		background: none;
+		font-size: 20px;
+	}
+
+	.select
+	{
+		background: white;
+		color: orange;
+	}
+
+	.icon-menu{
+		display: none;
+	}
+
+	.banner_titulo{
+		font-size: 60px;
+		
+	}
+
+	.section_titulo{
+		font-size: 50px;
+	}
+
+	.contenedor{
+	margin: auto;
+	width: 1024px;
+	}
+
+	.info_titulo
+	{
+		text-align: center;
+	}
+
+	.section_titulo{
+		font-size: 50px;
+		margin: 20px 0;
+	}
+
+	.cursos_descripcion{
+		padding: 20px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+	}
+
+}
+
+@media(min-width: 1300px){
+
+	.contenedor{
+		width: 1200px;
+	}
+
+}
 
